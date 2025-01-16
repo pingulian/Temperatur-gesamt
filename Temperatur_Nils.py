@@ -19,7 +19,7 @@ val2 = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
 
 ax.set_xlabel('Zeit t (in s)')
 ax.set_ylabel('Temperatur T (in °C)')        
-ax.plot(val1,val2, linewidth=2.0)
+ax.plot(val2,val1, linewidth=2.0)
 plt.show()
 
 terme = [np.zeros_like(val1)]
